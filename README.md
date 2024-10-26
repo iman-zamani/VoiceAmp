@@ -46,9 +46,18 @@ The Audio Stream App is designed for real-time voice streaming, allowing users t
 
 3. **Stop Streaming:**
    - Release the 'Record' button to stop streaming.
+## **Important Notice**
+
+This project is currently in a **developmental stage** and **not ready for production use**. It is intended for experimental and testing purposes only. Here are some key points to consider:
+
+- **Potential Bugs**: The code may contain bugs or stability issues that could affect performance and reliability.
+- **Security Considerations**: Security measures are not fully implemented, making the software potentially vulnerable to threats.
+
+**Please use this project with caution and not in production environments where stability, performance, or security are critical.**
 
 ## Contributing
 Contributions to the Audio Stream App are welcome! Please feel free to fork the repository, make your changes, and submit a pull request.
 
+
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+see the [LICENSE.md](LICENSE) file for details.
