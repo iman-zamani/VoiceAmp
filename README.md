@@ -55,9 +55,5 @@ This project is currently in a **developmental stage** and **not ready for produ
 
 **Please use this project with caution and not in production environments where stability, performance, or security are critical.**
 
-## Contributing
-Contributions to the Audio Stream App are welcome! Please feel free to fork the repository, make your changes, and submit a pull request.
-
-
 ## License
 see the [LICENSE.md](LICENSE) file for details.
