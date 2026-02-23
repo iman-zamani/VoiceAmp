@@ -23,37 +23,46 @@ This is useful for:
 
 ---
 
-## Requirements
+# Installation
 
-* Android Studio Arctic Fox (2020.3.1) or newer
-* Compile SDK version 34
-* Android device running Android 7.0 (API level 24) or higher
-* Bluetooth speaker or external audio output device
+## Option 1: Install via APK (Recommended)
+
+1. Go to the **Releases** section of this repository.
+2. Download the latest APK file.
+3. Open the APK file and install it.
+4. Allow installation from unknown sources if prompted.
+
+After installation, launch the app and grant microphone permission.
 
 ---
 
-## Installation
+## Option 2: Build from Source (For Developers)
 
-### 1. Clone the repository
+### Requirements
+
+* Android Studio Arctic Fox (2020.3.1) or newer
+* Android SDK with compile SDK version 34
+* Android device running Android 7.0 (API level 24) or higher
+* Bluetooth speaker or external audio output device
+
+### Steps
+
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/iman-zamani/VoiceAmp.git
 ```
 
-### 2. Open in Android Studio
-
-* Open Android Studio
-* Select "Open an Existing Project"
-* Choose the cloned project folder
-
-### 3. Connect a device
-
-* Enable USB debugging on your Android device
-* Or use an emulator (a physical device is recommended for audio testing)
+2. Open Android Studio.
+3. Select **Open an Existing Project**.
+4. Choose the cloned project folder.
+5. Allow Gradle to sync.
+6. Connect a physical Android device (recommended for audio testing).
+7. Click **Run** to build and install the app.
 
 ---
 
-## Usage
+# Usage
 
 1. Connect your phone to a Bluetooth speaker.
 2. Launch VoiceAmp.
@@ -65,7 +74,7 @@ Your voice will be played through the connected speaker in real time.
 
 ---
 
-## Important Notice
+# Important Notice
 
 This project is currently under development and is not ready for production use.
 
@@ -77,6 +86,6 @@ Use this project for testing and experimental purposes only.
 
 ---
 
-## License
+# License
 
-See the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
