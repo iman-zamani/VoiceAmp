@@ -1,59 +1,82 @@
-# Audio Stream App
+# VoiceAmp
 
-## Overview
-The Audio Stream App is designed for real-time voice streaming, allowing users to amplify their voice through a connected speaker. This is particularly useful in scenarios where you need to address a large audience without the availability of a traditional microphone and speaker setup. By utilizing this app, you can connect your Android device to a speaker via Bluetooth (or any other audio output method) and broadcast your voice using the phone's microphone.
+VoiceAmp turns your Android phone into a portable microphone and speaker system.
+
+It captures your voice using the device microphone and streams it in real time to a connected Bluetooth speaker or other audio output device.
+
+This is useful for:
+
+* Small presentations
+* Teaching in classrooms
+* Outdoor speaking
+* Quick announcements
+* Situations where a traditional microphone setup is not available
+
+---
 
 ## Features
-- Real-time audio streaming from the microphone to a connected speaker.
-- Simple user interface with start and stop controls for streaming.
 
-## Prerequisites
-- Android Studio Arctic Fox | 2020.3.1 or newer.
-- Android SDK with a compile SDK version of 34.
-- A physical Android device or an emulator running at least Android 7.0 (API level 24).
+* Real-time voice streaming
+* Audio output to Bluetooth or wired speakers
+* Simple press-and-hold recording control
+* Lightweight and easy to use
 
-## Setup
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/iman-zamani/Audio-Stream-App.git
-   ```
+---
 
-2. **Open the project in Android Studio:**
-   - Launch Android Studio.
-   - Choose "Open an Existing Project".
-   - Navigate to the directory where you cloned the project and select it.
+## Requirements
 
-3. **Connect your Android device via USB or set up an emulator:**
-   - Ensure that USB debugging is enabled on your device.
-   - Alternatively, set up an emulator through AVD Manager in Android Studio.
+* Android Studio Arctic Fox (2020.3.1) or newer
+* Compile SDK version 34
+* Android device running Android 7.0 (API level 24) or higher
+* Bluetooth speaker or external audio output device
 
-## Building the Project
-1. **In Android Studio:**
-   - Once the project is open, allow Android Studio to sync with Gradle files.
-   - After synchronization, go to `Build > Make Project` to compile the project.
+---
 
-2. **Running the App:**
-   - Select your connected device or emulator from the device dropdown menu in the toolbar.
-   - Click on the run icon (a green triangle) or `Run > Run 'app'` to deploy the application on your device/emulator.
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/iman-zamani/VoiceAmp.git
+```
+
+### 2. Open in Android Studio
+
+* Open Android Studio
+* Select "Open an Existing Project"
+* Choose the cloned project folder
+
+### 3. Connect a device
+
+* Enable USB debugging on your Android device
+* Or use an emulator (a physical device is recommended for audio testing)
+
+---
 
 ## Usage
-1. **Grant Permissions:**
-   - On the first launch, the app will request necessary permissions for recording audio. Please accept it to ensure the app functions properly.
 
-2. **Start Streaming:**
-   - Tap and hold the 'Record' button to start streaming your voice.
-   - Your voice will be captured via the device's microphone and output through the connected speaker.
+1. Connect your phone to a Bluetooth speaker.
+2. Launch VoiceAmp.
+3. Grant microphone permission when requested.
+4. Press and hold the "Record" button to start streaming.
+5. Release the button to stop streaming.
 
-3. **Stop Streaming:**
-   - Release the 'Record' button to stop streaming.
-## **Important Notice**
+Your voice will be played through the connected speaker in real time.
 
-This project is currently in a **developmental stage** and **not ready for production use**. It is intended for experimental and testing purposes only. Here are some key points to consider:
+---
 
-- **Potential Bugs**: The code may contain bugs or stability issues that could affect performance and reliability.
-- **Security Considerations**: Security measures are not fully implemented, making the software potentially vulnerable to threats.
+## Important Notice
 
-**Please use this project with caution and not in production environments where stability, performance, or security are critical.**
+This project is currently under development and is not ready for production use.
+
+* It may contain bugs or stability issues.
+* Performance may vary between devices.
+* Security measures are not fully implemented.
+
+Use this project for testing and experimental purposes only.
+
+---
 
 ## License
-see the [LICENSE.md](LICENSE) file for details.
+
+See the LICENSE file for details.
